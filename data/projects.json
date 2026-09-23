@@ -14,7 +14,7 @@
       ],
       "icon": "fas fa-brain",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/llm-evaluation.webp",
       "featured": true,
       "github": "",
       "demo": "",
@@ -26,7 +26,8 @@
       "stats": {
         "status": "Completed",
         "year": "2026"
-      }
+      },
+      "imageAlt": "Glowing neural network brain surrounded by scored response cards"
     },
     {
       "title": "Full Stack Application Development",
@@ -45,7 +46,7 @@
       ],
       "icon": "fas fa-globe",
       "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/fullstack-app.webp",
       "featured": false,
       "github": "",
       "demo": "",
@@ -57,7 +58,8 @@
       "stats": {
         "status": "Completed",
         "year": "2026"
-      }
+      },
+      "imageAlt": "Isometric stack of browser, API and database layers linked by data streams"
     },
     {
       "title": "mern-ecommerce-rishi",
@@ -70,7 +72,7 @@
       ],
       "icon": "fas fa-brain",
       "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/mern-ecommerce.webp",
       "featured": false,
       "github": "https://github.com/sreeanee/mern-ecommerce-rishi",
       "demo": "https://github.com/sreeanee/mern-ecommerce-rishi",
@@ -82,7 +84,8 @@
       "stats": {
         "status": "Completed",
         "year": "2026"
-      }
+      },
+      "imageAlt": "Glass shopping bag and product cards floating over a glowing storefront grid"
     },
     {
       "title": "spark-kafka-cassandra-pipeline",
@@ -95,7 +98,7 @@
       ],
       "icon": "fas fa-project-diagram",
       "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/spark-kafka-cassandra.webp",
       "featured": false,
       "github": "https://github.com/sreeanee/spark-kafka-cassandra-pipeline",
       "demo": "https://github.com/sreeanee/spark-kafka-cassandra-pipeline",
@@ -107,7 +110,8 @@
       "stats": {
         "status": "Completed",
         "year": "2026"
-      }
+      },
+      "imageAlt": "Stream of particles flowing through queue, compute and storage stages"
     },
     {
       "title": "contribution-history",
@@ -117,7 +121,7 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/contribution-history.webp",
       "featured": false,
       "github": "https://github.com/sreeanee/contribution-history",
       "demo": "https://github.com/sreeanee/contribution-history",
@@ -129,7 +133,8 @@
       "stats": {
         "status": "Completed",
         "year": "2026"
-      }
+      },
+      "imageAlt": "3D contribution heatmap of glowing tiles"
     },
     {
       "title": "mern-chat-app",
@@ -139,7 +144,7 @@
       "technologies": [],
       "icon": "fas fa-project-diagram",
       "color": "#FF8B94",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/mern-chat-app.webp",
       "featured": false,
       "github": "https://github.com/sreeanee/mern-chat-app",
       "demo": "https://github.com/sreeanee/mern-chat-app",
@@ -151,7 +156,8 @@
       "stats": {
         "status": "Completed",
         "year": "2026"
-      }
+      },
+      "imageAlt": "Two glass panels exchanging glowing chat bubbles"
     },
     {
       "title": "Regression-model-for-demand-prediction",
@@ -163,7 +169,7 @@
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "assets/img/projects/demand-prediction.webp",
       "featured": false,
       "github": "https://github.com/sreeanee/Regression-model-for-demand-prediction",
       "demo": "https://github.com/sreeanee/Regression-model-for-demand-prediction",
@@ -175,7 +181,8 @@
       "stats": {
         "status": "Completed",
         "year": "2026"
-      }
+      },
+      "imageAlt": "Regression curve rising through glowing data points and bars"
     }
   ]
 }

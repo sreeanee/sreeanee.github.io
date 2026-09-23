@@ -220,7 +220,12 @@ async function loadExperience() {
                         <div class="experience-header">
                             <h3 class="experience-title">${exp.title}</h3>
                             <p class="experience-company">
-                                ${exp.company} ${exp.location ? `• ${exp.location}` : ''}
+                                ${exp.logo ? `
+                                    <span class="company-logo${exp.logoStyle === 'dark' ? ' company-logo--dark' : ''}">
+                                        <img src="${exp.logo}" alt="${exp.company} logo">
+                                    </span>
+                                ` : ''}
+                                <span class="company-name">${exp.company} ${exp.location ? `• ${exp.location}` : ''}</span>
                             </p>
                             <p class="experience-period">
                                 <i class="fas fa-calendar-alt"></i>
@@ -297,6 +302,12 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map(project => `
                 <div class="project-card">
+                    ${project.image ? `
+                        <div class="project-image">
+                            <img src="${project.image}" alt="${project.imageAlt || project.title}" loading="lazy">
+                        </div>
+                    ` : ''}
+                    <div class="project-body">
                     <div class="project-icon" style="background: ${project.color}">
                         <i class="${project.icon}"></i>
                     </div>
@@ -335,6 +346,7 @@ async function loadProjects() {
                             `).join('')}
                         </div>
                     ` : ''}
+                    </div>
                 </div>
             `).join('');
         }

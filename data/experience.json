@@ -21,7 +21,9 @@
         "Supported cloud-native deployment workflows using AWS, Azure, Docker, Kubernetes, and Jenkins, contributing to 12+ application releases through CI/CD pipelines",
         "Developed automated unit and integration tests using JUnit, Mockito, Jest, and API Testing, improving regression coverage across 40+ test scenarios and supporting application quality",
         "Participated in code reviews, architecture discussions, Agile/Scrum ceremonies, and production troubleshooting, resolving 25+ application issues and documenting technical solutions for ongoing maintenance"
-      ]
+      ],
+      "logo": "assets/img/logos/pnc.svg",
+      "logoStyle": "light"
     },
     {
       "title": "Full Stack Developer",
@@ -40,7 +42,9 @@
         "Developed automated tests using JUnit, Mockito, Jest, and API Testing, validating 50+ unit and integration scenarios and supporting regression defect identification",
         "Supported deployment and release activities using AWS, Azure, Docker, Kubernetes, and Jenkins, contributing to 18+ application releases through CI/CD workflows",
         "Collaborated with QA, DevOps, and engineering stakeholders through Agile/Scrum and SDLC practices, resolving 30+ defects and supporting timely feature delivery"
-      ]
+      ],
+      "logo": "assets/img/logos/cigna.svg",
+      "logoStyle": "light"
     },
     {
       "title": "Full Stack Developer",
@@ -60,7 +64,9 @@
         "Developed unit and integration tests using JUnit, Mockito, Jest, and API Testing, validating 30+ test scenarios and supporting application quality improvements",
         "Supported application troubleshooting, defect resolution, and technical documentation, resolving 20+ issues while collaborating with QA and development teams through Agile/Scrum delivery",
         "Participated in application deployment and maintenance activities using Docker, Jenkins, and CI/CD, contributing to 8+ application releases and supporting SDLC execution"
-      ]
+      ],
+      "logo": "assets/img/logos/citiustech.png",
+      "logoStyle": "dark"
     }
   ]
 }
