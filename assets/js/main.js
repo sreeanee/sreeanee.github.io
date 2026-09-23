@@ -268,12 +268,13 @@ async function loadSkills() {
         const skillsGrid = document.getElementById('skills-grid');
         if (skillsGrid && data.categories) {
             skillsGrid.innerHTML = data.categories.map(category => `
-                <div class="skill-category">
+                <div class="skill-category" style="--accent: ${category.color}">
                     <div class="skill-category-header">
-                        <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
+                        <div class="skill-category-icon">
                             <i class="${category.icon}"></i>
                         </div>
                         <h3 class="skill-category-title">${category.category}</h3>
+                        <span class="skill-category-count">${category.skills.length}</span>
                     </div>
                     <div class="skill-list">
                         ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
@@ -383,24 +384,6 @@ async function loadEducation() {
                             ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
                         </ul>
                     ` : ''}
-                </div>
-            `).join('');
-        }
-
-        // Set certifications title
-        document.getElementById('certifications-title').textContent = data.certificationsTitle;
-
-        // Render certifications
-        const certificationsGrid = document.getElementById('certifications-grid');
-        if (certificationsGrid && data.certifications) {
-            certificationsGrid.innerHTML = data.certifications.map(cert => `
-                <div class="certification-card">
-                    <div class="certification-icon" style="color: ${cert.color}">
-                        <i class="${cert.icon}"></i>
-                    </div>
-                    <h4 class="certification-title">${cert.title}</h4>
-                    <p class="certification-issuer">${cert.issuer}</p>
-                    <p class="certification-date">${cert.date}</p>
                 </div>
             `).join('');
         }
@@ -650,7 +633,7 @@ function initializeScrollEffects() {
 // Initialize Scroll Reveal Animation
 // ============================================
 function initializeScrollReveal() {
-    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .project-card, .education-card, .certification-card');
+    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .project-card, .education-card');
 
     const revealOnScroll = () => {
         revealElements.forEach(element => {

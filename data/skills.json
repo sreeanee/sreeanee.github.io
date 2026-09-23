@@ -3,7 +3,7 @@
   "sectionTitle": "Skills & Technologies",
   "categories": [
     {
-      "category": "Programming Languages",
+      "category": "Languages",
       "icon": "fas fa-code",
       "color": "#FF6B6B",
       "skills": [
@@ -14,30 +14,56 @@
       ]
     },
     {
-      "category": "Frameworks & Libraries",
-      "icon": "fas fa-toolbox",
+      "category": "Frontend",
+      "icon": "fas fa-laptop-code",
       "color": "#4ECDC4",
       "skills": [
         "React.js",
         "Angular",
-        "Spring Boot",
-        "Spring MVC",
-        "Spring Security",
-        "Node.js",
-        "Redux"
+        "Redux",
+        "HTML5",
+        "CSS3",
+        "Responsive Design",
+        "SPA",
+        "State Management"
       ]
     },
     {
-      "category": "Tools & Platforms",
-      "icon": "fas fa-wrench",
+      "category": "Backend & APIs",
+      "icon": "fas fa-server",
       "color": "#FFE66D",
+      "skills": [
+        "Spring Boot",
+        "Spring MVC",
+        "Node.js",
+        "REST APIs",
+        "SOAP",
+        "Microservices",
+        "API Gateway",
+        "Service Integration"
+      ]
+    },
+    {
+      "category": "Databases",
+      "icon": "fas fa-database",
+      "color": "#A8DADC",
       "skills": [
         "PostgreSQL",
         "MySQL",
         "Oracle",
         "MongoDB",
         "Redis",
-        "NoSQL",
+        "Data Modeling",
+        "Query Optimization",
+        "Indexing",
+        "Stored Procedures"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "icon": "fas fa-cloud",
+      "color": "#B19CD9",
+      "skills": [
         "AWS",
         "Azure",
         "Docker",
@@ -45,82 +71,99 @@
         "Jenkins",
         "GitHub Actions",
         "CI/CD",
-        "Linux",
+        "Linux"
+      ]
+    },
+    {
+      "category": "Messaging",
+      "icon": "fas fa-exchange-alt",
+      "color": "#FF8B94",
+      "skills": [
         "Apache Kafka",
         "RabbitMQ",
-        "REST",
-        "SOAP",
-        "JSON",
-        "XML",
+        "Event Streaming",
+        "Message Queues",
+        "Event-Driven Architecture"
+      ]
+    },
+    {
+      "category": "Testing & Quality",
+      "icon": "fas fa-vial",
+      "color": "#4ECDC4",
+      "skills": [
         "JUnit",
         "Mockito",
         "Jest",
         "Cypress",
         "Selenium",
+        "API Testing",
+        "Test Automation"
+      ]
+    },
+    {
+      "category": "Security",
+      "icon": "fas fa-shield-alt",
+      "color": "#FF6B6B",
+      "skills": [
+        "Spring Security",
         "OAuth 2.0",
         "JWT",
         "RBAC",
         "OWASP",
-        "Prometheus",
-        "Grafana",
-        "ELK Stack"
+        "Secure Coding"
       ]
     },
     {
-      "category": "Technical Skills",
-      "icon": "fas fa-laptop-code",
+      "category": "Observability",
+      "icon": "fas fa-chart-line",
+      "color": "#FFE66D",
+      "skills": [
+        "Prometheus",
+        "Grafana",
+        "ELK Stack",
+        "Distributed Tracing",
+        "Logging",
+        "Root Cause Analysis",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "category": "Architecture",
+      "icon": "fas fa-sitemap",
       "color": "#A8DADC",
       "skills": [
-        "Full Stack Development",
-        "Microservices Architecture",
-        "Distributed Systems",
         "System Design",
+        "Distributed Systems",
         "Design Patterns",
-        "Event-Driven Architecture",
-        "API Gateway",
-        "Service Integration",
         "Scalability",
         "High Availability",
-        "Responsive Design",
-        "Single Page Applications (SPA)",
-        "State Management",
-        "REST API Integration",
-        "Business Logic",
-        "Authentication",
-        "Authorization",
-        "Database Design",
-        "Data Modeling",
-        "Query Optimization",
-        "Stored Procedures",
-        "Indexing",
-        "Infrastructure Automation",
-        "Event Streaming",
-        "Message Queues",
-        "Unit Testing",
-        "Integration Testing",
-        "API Testing",
-        "Test Automation",
-        "Code Reviews",
-        "Secure Coding",
-        "Performance Optimization",
-        "Application Monitoring",
-        "Logging",
-        "Distributed Tracing",
-        "Root Cause Analysis",
+        "Solution Design"
+      ]
+    },
+    {
+      "category": "Leadership & Delivery",
+      "icon": "fas fa-users",
+      "color": "#B19CD9",
+      "skills": [
         "Technical Leadership",
-        "Solution Design",
-        "Architecture Reviews",
+        "Code Reviews",
         "Mentoring",
+        "Architecture Reviews",
         "Technical Documentation",
         "Agile",
         "Scrum",
-        "Stakeholder Collaboration",
-        "SDLC",
+        "SDLC"
+      ]
+    },
+    {
+      "category": "AI / LLM",
+      "icon": "fas fa-robot",
+      "color": "#FF8B94",
+      "skills": [
         "LLM Model Testing",
         "LLM Evaluation",
         "Response Analysis",
-        "Training Data Development",
-        "LLM Training Data Preparation"
+        "Training Data Development"
       ]
     }
   ]
