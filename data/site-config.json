@@ -1,0 +1,26 @@
+{
+  "_instructions": "Site-wide configuration and meta tags.",
+  "title": "SREETHA ANEESH | Senior Full Stack Developer | Full Stack Software Engineer",
+  "description": "SREETHA ANEESH - Senior Full Stack Developer | Full Stack Software Engineer | Portfolio",
+  "keywords": "Senior Full Stack Developer | Full Stack Software Engineer, Portfolio, SREETHA ANEESH",
+  "author": "SREETHA ANEESH",
+  "siteName": "SREETHA ANEESH",
+  "siteTitle": "SREETHA ANEESH | Senior Full Stack Developer | Full Stack Software Engineer",
+  "meta": {
+    "title": "SREETHA ANEESH | Senior Full Stack Developer | Full Stack Software Engineer",
+    "description": "SREETHA ANEESH - Senior Full Stack Developer | Full Stack Software Engineer | Portfolio",
+    "author": "SREETHA ANEESH",
+    "keywords": "Senior Full Stack Developer | Full Stack Software Engineer, Portfolio, SREETHA ANEESH"
+  },
+  "branding": {
+    "name": "SREETHA ANEESH",
+    "tagline": "Senior Full Stack Developer | Full Stack Software Engineer",
+    "logo": "/logo.png"
+  },
+  "settings": {
+    "year": 2026,
+    "enableAnimations": true,
+    "enableParticles": true,
+    "navbarScrollEffect": true
+  }
+}

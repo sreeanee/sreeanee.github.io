@@ -1,0 +1,66 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Senior Full Stack Developer",
+      "company": "PNC",
+      "period": "Sep 2023 - Present",
+      "location": "",
+      "description": "Engineered full-stack application features using Java, Spring Boot, React.js, and TypeScript, translating business requirements into scalable functionality and supporting delivery of 15+ application enhancements.\nDeveloped and integrated REST APIs using Spring Boot and Spring MVC, connecting frontend components with backend business logic and improving service response times by 25% through application optimization.\nBuilt responsive user interfaces using React.js, Angular, HTML5, CSS3, and Redux, improving application usability and reducing frontend defect rework by 20%.\nDesigned database-driven application functionality using SQL, PostgreSQL, MySQL, and Oracle, applying data modeling, indexing, and query optimization to support 10+ business workflows.\nImplemented secure application access using Spring Security, OAuth 2.0, JWT, and RBAC, supporting authentication and authorization requirements across 8+ application modules.\nContributed to microservices-based application development using Microservices Architecture, API Gateway, and Service Integration, supporting scalable backend functionality and reducing service integration effort by 20%.\nSupported cloud-native deployment workflows using AWS, Azure, Docker, Kubernetes, and Jenkins, contributing to 12+ application releases through CI/CD pipelines.\nDeveloped automated unit and integration tests using JUnit, Mockito, Jest, and API Testing, improving regression coverage across 40+ test scenarios and supporting application quality.\nParticipated in code reviews, architecture discussions, Agile/Scrum ceremonies, and production troubleshooting, resolving 25+ application issues and documenting technical solutions for ongoing maintenance.",
+      "responsibilities": [
+        "Engineered full-stack application features using Java, Spring Boot, React",
+        "js, and TypeScript, translating business requirements into scalable functionality and supporting delivery of 15+ application enhancements",
+        "Developed and integrated REST APIs using Spring Boot and Spring MVC, connecting frontend components with backend business logic and improving service response times by 25% through application optimization",
+        "Built responsive user interfaces using React",
+        "js, Angular, HTML5, CSS3, and Redux, improving application usability and reducing frontend defect rework by 20%",
+        "Designed database-driven application functionality using SQL, PostgreSQL, MySQL, and Oracle, applying data modeling, indexing, and query optimization to support 10+ business workflows",
+        "Implemented secure application access using Spring Security, OAuth 2",
+        "0, JWT, and RBAC, supporting authentication and authorization requirements across 8+ application modules",
+        "Contributed to microservices-based application development using Microservices Architecture, API Gateway, and Service Integration, supporting scalable backend functionality and reducing service integration effort by 20%",
+        "Supported cloud-native deployment workflows using AWS, Azure, Docker, Kubernetes, and Jenkins, contributing to 12+ application releases through CI/CD pipelines",
+        "Developed automated unit and integration tests using JUnit, Mockito, Jest, and API Testing, improving regression coverage across 40+ test scenarios and supporting application quality",
+        "Participated in code reviews, architecture discussions, Agile/Scrum ceremonies, and production troubleshooting, resolving 25+ application issues and documenting technical solutions for ongoing maintenance"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Cigna",
+      "period": "Jul 2022 - Aug 2023",
+      "location": "",
+      "description": "Developed enterprise web application features using Java, Spring Boot, React.js, Angular, JavaScript, and TypeScript, delivering 20+ frontend and backend enhancements across application workflows.\nBuilt backend services using Spring Boot, Spring MVC, and REST APIs, implementing business logic and API integrations that reduced average service response time by 22% through optimization.\nIntegrated frontend applications with backend systems using REST, JSON, XML, and API Integration, supporting 15+ application interfaces and improving data exchange reliability.\nContributed to Microservices Architecture and distributed application development, applying service integration and design patterns to support modular application functionality across 10+ services.\nDesigned and optimized database operations using SQL, MySQL, PostgreSQL, Oracle, and MongoDB, improving query execution performance by 20% across selected application operations.\nImplemented asynchronous application workflows using Apache Kafka, RabbitMQ, and Message Queues, supporting 8+ event-driven integration scenarios and improving processing efficiency.\nDeveloped automated tests using JUnit, Mockito, Jest, and API Testing, validating 50+ unit and integration scenarios and supporting regression defect identification.\nSupported deployment and release activities using AWS, Azure, Docker, Kubernetes, and Jenkins, contributing to 18+ application releases through CI/CD workflows.\nCollaborated with QA, DevOps, and engineering stakeholders through Agile/Scrum and SDLC practices, resolving 30+ defects and supporting timely feature delivery.",
+      "responsibilities": [
+        "Developed enterprise web application features using Java, Spring Boot, React",
+        "js, Angular, JavaScript, and TypeScript, delivering 20+ frontend and backend enhancements across application workflows",
+        "Built backend services using Spring Boot, Spring MVC, and REST APIs, implementing business logic and API integrations that reduced average service response time by 22% through optimization",
+        "Integrated frontend applications with backend systems using REST, JSON, XML, and API Integration, supporting 15+ application interfaces and improving data exchange reliability",
+        "Contributed to Microservices Architecture and distributed application development, applying service integration and design patterns to support modular application functionality across 10+ services",
+        "Designed and optimized database operations using SQL, MySQL, PostgreSQL, Oracle, and MongoDB, improving query execution performance by 20% across selected application operations",
+        "Implemented asynchronous application workflows using Apache Kafka, RabbitMQ, and Message Queues, supporting 8+ event-driven integration scenarios and improving processing efficiency",
+        "Developed automated tests using JUnit, Mockito, Jest, and API Testing, validating 50+ unit and integration scenarios and supporting regression defect identification",
+        "Supported deployment and release activities using AWS, Azure, Docker, Kubernetes, and Jenkins, contributing to 18+ application releases through CI/CD workflows",
+        "Collaborated with QA, DevOps, and engineering stakeholders through Agile/Scrum and SDLC practices, resolving 30+ defects and supporting timely feature delivery"
+      ]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "CitiusTech",
+      "period": "Jan 2020 - May 2021",
+      "location": "",
+      "description": "Developed full-stack application components using Java, Spring Boot, JavaScript, React.js, Angular, HTML5, and CSS3, delivering 10+ application features for healthcare technology solutions.\nBuilt backend APIs using Spring Boot, Spring MVC, and REST APIs, implementing business logic and application integrations that improved API response performance by 20%.\nCreated responsive frontend components using React.js, Angular, TypeScript, and Redux, improving user interaction consistency across 6+ application modules.\nIntegrated application services with relational and NoSQL databases using SQL, MySQL, PostgreSQL, Oracle, and MongoDB, supporting data persistence across 8+ application workflows.\nImplemented application security using Spring Security, JWT, OAuth 2.0, and RBAC, supporting secure access requirements across 5+ application modules.\nDeveloped unit and integration tests using JUnit, Mockito, Jest, and API Testing, validating 30+ test scenarios and supporting application quality improvements.\nSupported application troubleshooting, defect resolution, and technical documentation, resolving 20+ issues while collaborating with QA and development teams through Agile/Scrum delivery.\nParticipated in application deployment and maintenance activities using Docker, Jenkins, and CI/CD, contributing to 8+ application releases and supporting SDLC execution.",
+      "responsibilities": [
+        "Developed full-stack application components using Java, Spring Boot, JavaScript, React",
+        "js, Angular, HTML5, and CSS3, delivering 10+ application features for healthcare technology solutions",
+        "Built backend APIs using Spring Boot, Spring MVC, and REST APIs, implementing business logic and application integrations that improved API response performance by 20%",
+        "Created responsive frontend components using React",
+        "js, Angular, TypeScript, and Redux, improving user interaction consistency across 6+ application modules",
+        "Integrated application services with relational and NoSQL databases using SQL, MySQL, PostgreSQL, Oracle, and MongoDB, supporting data persistence across 8+ application workflows",
+        "Implemented application security using Spring Security, JWT, OAuth 2",
+        "0, and RBAC, supporting secure access requirements across 5+ application modules",
+        "Developed unit and integration tests using JUnit, Mockito, Jest, and API Testing, validating 30+ test scenarios and supporting application quality improvements",
+        "Supported application troubleshooting, defect resolution, and technical documentation, resolving 20+ issues while collaborating with QA and development teams through Agile/Scrum delivery",
+        "Participated in application deployment and maintenance activities using Docker, Jenkins, and CI/CD, contributing to 8+ application releases and supporting SDLC execution"
+      ]
+    }
+  ]
+}

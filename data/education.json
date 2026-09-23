@@ -1,0 +1,16 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "certificationsTitle": "Certifications",
+  "education": [
+    {
+      "degree": "Bachelor of Engineering",
+      "school": "University of Calicut",
+      "institution": "University of Calicut",
+      "period": "2006 - 2010",
+      "details": "",
+      "description": ""
+    }
+  ],
+  "certifications": []
+}

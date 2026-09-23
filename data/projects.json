@@ -1,0 +1,181 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "LLM Model Testing and Evaluation",
+      "description": "Conducted LLM model testing and evaluation by reviewing generated responses against defined evaluation criteria, identifying response quality issues across 100+ test prompts and documenting findings for model improvement.\nParticipated in brainstorming discussions with LLM models, analyzing response patterns, reasoning quality, and output consistency across 50+ evaluation scenarios to support model behavior analysis.\nDeveloped and prepared training data for LLM model training, organizing 500+ example inputs and expected outputs to support training-data quality and model development workflows.",
+      "longDescription": "Conducted LLM model testing and evaluation by reviewing generated responses against defined evaluation criteria, identifying response quality issues across 100+ test prompts and documenting findings for model improvement.\nParticipated in brainstorming discussions with LLM models, analyzing response patterns, reasoning quality, and output consistency across 50+ evaluation scenarios to support model behavior analysis.\nDeveloped and prepared training data for LLM model training, organizing 500+ example inputs and expected outputs to support training-data quality and model development workflows.",
+      "category": "Data Science",
+      "technologies": [
+        "Large Language Model Evaluation",
+        "Response Analysis",
+        "Training Data"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Full Stack Application Development",
+      "description": "Developed full-stack application functionality using Java, Spring Boot, React.js, TypeScript, and REST APIs, integrating frontend components with backend services across 10+ application workflows.\nImplemented database operations using SQL, PostgreSQL, and MySQL, applying query optimization and data modeling to support application performance and maintainable data access.",
+      "longDescription": "Developed full-stack application functionality using Java, Spring Boot, React.js, TypeScript, and REST APIs, integrating frontend components with backend services across 10+ application workflows.\nImplemented database operations using SQL, PostgreSQL, and MySQL, applying query optimization and data modeling to support application performance and maintainable data access.",
+      "category": "Web Development",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React.js",
+        "TypeScript",
+        "REST APIs",
+        "SQL",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "icon": "fas fa-globe",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mern-ecommerce-rishi",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Data Science",
+      "technologies": [
+        "JavaScript",
+        "HTML"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/sreeanee/mern-ecommerce-rishi",
+      "demo": "https://github.com/sreeanee/mern-ecommerce-rishi",
+      "links": {
+        "github": "https://github.com/sreeanee/mern-ecommerce-rishi",
+        "demo": "https://github.com/sreeanee/mern-ecommerce-rishi",
+        "live": "https://github.com/sreeanee/mern-ecommerce-rishi"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "spark-kafka-cassandra-pipeline",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/sreeanee/spark-kafka-cassandra-pipeline",
+      "demo": "https://github.com/sreeanee/spark-kafka-cassandra-pipeline",
+      "links": {
+        "github": "https://github.com/sreeanee/spark-kafka-cassandra-pipeline",
+        "demo": "https://github.com/sreeanee/spark-kafka-cassandra-pipeline",
+        "live": "https://github.com/sreeanee/spark-kafka-cassandra-pipeline"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "contribution-history",
+      "description": "Generated GitHub contribution history",
+      "longDescription": "Generated GitHub contribution history",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/sreeanee/contribution-history",
+      "demo": "https://github.com/sreeanee/contribution-history",
+      "links": {
+        "github": "https://github.com/sreeanee/contribution-history",
+        "demo": "https://github.com/sreeanee/contribution-history",
+        "live": "https://github.com/sreeanee/contribution-history"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "mern-chat-app",
+      "description": "Hands-on learning experience with modern frameworks",
+      "longDescription": "Hands-on learning experience with modern frameworks",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/sreeanee/mern-chat-app",
+      "demo": "https://github.com/sreeanee/mern-chat-app",
+      "links": {
+        "github": "https://github.com/sreeanee/mern-chat-app",
+        "demo": "https://github.com/sreeanee/mern-chat-app",
+        "live": "https://github.com/sreeanee/mern-chat-app"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Regression-model-for-demand-prediction",
+      "description": "GitHub repository: Regression-model-for-demand-prediction",
+      "longDescription": "GitHub repository: Regression-model-for-demand-prediction",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/sreeanee/Regression-model-for-demand-prediction",
+      "demo": "https://github.com/sreeanee/Regression-model-for-demand-prediction",
+      "links": {
+        "github": "https://github.com/sreeanee/Regression-model-for-demand-prediction",
+        "demo": "https://github.com/sreeanee/Regression-model-for-demand-prediction",
+        "live": "https://github.com/sreeanee/Regression-model-for-demand-prediction"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}
