@@ -1,26 +1,26 @@
 {
   "_instructions": "Hero section content.",
-  "greeting": "Hi, I'm",
+  "greeting": "",
   "name": "SREETHA ANEESH",
-  "title": "Senior Full Stack Developer | Full Stack Software Engineer",
-  "summary": "Senior Full Stack Developer | Full Stack Software Engineer with 3+ years of experience specializing in Java, JavaScript, TypeScript.",
-  "avatarUrl": "/avatar.png",
-  "tagline": "Senior Full Stack Developer | Full Stack Software Engineer",
+  "title": "Senior Full Stack Developer",
+  "summary": "I build Java, Spring Boot and React applications for financial services and healthcare teams, and evaluate LLM output on the side.",
+  "avatarUrl": "assets/img/headshot.jpg",
+  "tagline": "",
   "highlights": [
     {
       "icon": "fas fa-briefcase",
-      "text": "3+ Years Experience",
-      "color": "#FF6B6B"
+      "text": "3+ years experience",
+      "color": "#2444e0"
     },
     {
-      "icon": "fas fa-project-diagram",
-      "text": "7+ Projects Completed",
-      "color": "#4ECDC4"
+      "icon": "fas fa-building-columns",
+      "text": "Fintech and healthcare",
+      "color": "#2444e0"
     },
     {
       "icon": "fas fa-code",
-      "text": "Technical Expertise",
-      "color": "#FFE66D"
+      "text": "Java, Spring Boot, React",
+      "color": "#2444e0"
     }
   ],
   "cta": {
@@ -50,9 +50,5 @@
       "url": "mailto:sreeanee2021@gmail.com",
       "icon": "fas fa-envelope"
     }
-  ],
-  "scrollIndicator": {
-    "text": "Scroll to explore",
-    "icon": "fas fa-chevron-down"
-  }
+  ]
 }

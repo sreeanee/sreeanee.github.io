@@ -11,9 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 // ============================================
 async function initializeApp() {
     try {
-        // Initialize particles background
-        initializeParticles();
-
         // Load all data sections
         await Promise.all([
             loadSiteConfig(),
@@ -31,7 +28,6 @@ async function initializeApp() {
         // Initialize interactive features
         initializeNavigation();
         initializeScrollEffects();
-        initializeScrollReveal();
         initializeBackToTop();
 
         console.log('Portfolio loaded successfully!');
@@ -105,6 +101,22 @@ async function loadHero() {
         document.getElementById('hero-tagline').textContent = data.tagline;
         document.getElementById('hero-summary').textContent = data.summary;
 
+        // Portrait: photo when assets/img/headshot.jpg exists, monogram otherwise
+        const frame = document.getElementById('portrait-frame');
+        const monogram = document.getElementById('portrait-monogram');
+        if (frame && monogram) {
+            monogram.textContent = data.name.split(' ').map(part => part[0]).join('').slice(0, 2);
+            if (data.avatarUrl) {
+                const photo = new Image();
+                photo.alt = `Portrait of ${data.name}`;
+                photo.onload = () => {
+                    frame.appendChild(photo);
+                    frame.classList.add('has-photo');
+                };
+                photo.src = data.avatarUrl;
+            }
+        }
+
         // Render highlights
         const highlightsContainer = document.getElementById('hero-highlights');
         if (highlightsContainer && data.highlights) {
@@ -137,14 +149,6 @@ async function loadHero() {
             `).join('');
         }
 
-        // Render scroll indicator
-        const scrollIndicator = document.getElementById('scroll-indicator');
-        if (scrollIndicator && data.scrollIndicator) {
-            scrollIndicator.innerHTML = `
-                <span>${data.scrollIndicator.text}</span>
-                <i class="${data.scrollIndicator.icon}"></i>
-            `;
-        }
     } catch (error) {
         console.error('Error loading hero section:', error);
     }
@@ -225,7 +229,7 @@ async function loadExperience() {
                                         <img src="${exp.logo}" alt="${exp.company} logo">
                                     </span>
                                 ` : ''}
-                                <span class="company-name">${exp.company} ${exp.location ? `• ${exp.location}` : ''}</span>
+                                <span class="company-name">${exp.company}${exp.location ? `, ${exp.location}` : ''}</span>
                             </p>
                             <p class="experience-period">
                                 <i class="fas fa-calendar-alt"></i>
@@ -233,10 +237,9 @@ async function loadExperience() {
                                 ${exp.type ? `<span class="experience-type">• ${exp.type}</span>` : ''}
                             </p>
                         </div>
-                        <p class="experience-description">${exp.description}</p>
-                        ${exp.responsibilities ? `
+                        ${exp.description ? `
                             <ul class="experience-responsibilities">
-                                ${exp.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
+                                ${exp.description.split(/\r?\n/).filter(Boolean).map(line => `<li>${line}</li>`).join('')}
                             </ul>
                         ` : ''}
                         ${exp.technologies ? `
@@ -309,9 +312,6 @@ async function loadProjects() {
                         </div>
                     ` : ''}
                     <div class="project-body">
-                    <div class="project-icon" style="background: ${project.color}">
-                        <i class="${project.icon}"></i>
-                    </div>
                     <div class="project-header">
                         <h3 class="project-title">${project.title}</h3>
                     </div>
@@ -329,22 +329,12 @@ async function loadProjects() {
                                     Code
                                 </a>
                             ` : ''}
-                            ${project.links.demo ? `
+                            ${project.links.demo && project.links.demo !== project.links.github ? `
                                 <a href="${project.links.demo}" target="_blank" rel="noopener noreferrer" class="project-link">
                                     <i class="fas fa-external-link-alt"></i>
                                     Live Demo
                                 </a>
                             ` : ''}
-                        </div>
-                    ` : ''}
-                    ${project.stats ? `
-                        <div class="project-stats">
-                            ${Object.entries(project.stats).map(([key, value]) => `
-                                <div class="project-stat">
-                                    <span class="project-stat-value">${value}</span>
-                                    <span class="project-stat-label">${key}</span>
-                                </div>
-                            `).join('')}
                         </div>
                     ` : ''}
                     </div>
@@ -630,27 +620,6 @@ function initializeScrollEffects() {
 }
 
 // ============================================
-// Initialize Scroll Reveal Animation
-// ============================================
-function initializeScrollReveal() {
-    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .project-card, .education-card');
-
-    const revealOnScroll = () => {
-        revealElements.forEach(element => {
-            const elementTop = element.getBoundingClientRect().top;
-            const elementVisible = 150;
-
-            if (elementTop < window.innerHeight - elementVisible) {
-                element.classList.add('reveal', 'active');
-            }
-        });
-    };
-
-    window.addEventListener('scroll', revealOnScroll);
-    revealOnScroll(); // Initial check
-}
-
-// ============================================
 // Initialize Back to Top Button
 // ============================================
 function initializeBackToTop() {
@@ -670,93 +639,6 @@ function initializeBackToTop() {
                 top: 0,
                 behavior: 'smooth'
             });
-        });
-    }
-}
-
-// ============================================
-// Initialize Particles Background
-// ============================================
-function initializeParticles() {
-    if (typeof particlesJS !== 'undefined') {
-        particlesJS('particles-js', {
-            particles: {
-                number: {
-                    value: 80,
-                    density: {
-                        enable: true,
-                        value_area: 800
-                    }
-                },
-                color: {
-                    value: ['#667eea', '#764ba2', '#f093fb']
-                },
-                shape: {
-                    type: 'circle'
-                },
-                opacity: {
-                    value: 0.5,
-                    random: true,
-                    anim: {
-                        enable: true,
-                        speed: 1,
-                        opacity_min: 0.1,
-                        sync: false
-                    }
-                },
-                size: {
-                    value: 3,
-                    random: true,
-                    anim: {
-                        enable: true,
-                        speed: 2,
-                        size_min: 0.1,
-                        sync: false
-                    }
-                },
-                line_linked: {
-                    enable: true,
-                    distance: 150,
-                    color: '#667eea',
-                    opacity: 0.2,
-                    width: 1
-                },
-                move: {
-                    enable: true,
-                    speed: 2,
-                    direction: 'none',
-                    random: false,
-                    straight: false,
-                    out_mode: 'out',
-                    bounce: false
-                }
-            },
-            interactivity: {
-                detect_on: 'canvas',
-                events: {
-                    onhover: {
-                        enable: true,
-                        mode: 'grab'
-                    },
-                    onclick: {
-                        enable: true,
-                        mode: 'push'
-                    },
-                    resize: true
-                },
-                modes: {
-                    grab: {
-                        distance: 140,
-                        line_linked: {
-                            opacity: 0.5
-                        }
-                    },
-                    push: {
-                        particles_nb: 4
-                    }
-                }
-            },
-            retina_detect: true
         });
     }
 }

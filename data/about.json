@@ -3,28 +3,28 @@
   "sectionTitle": "About Me",
   "image": "assets/images/profile.jpg",
   "paragraphs": [
-    "Senior Full Stack Developer with 5+ years of experience in full-stack application development, backend engineering, and enterprise software delivery across financial services, technology, and healthcare environments. Skilled in Java, Spring Boot, React.js, Angular, TypeScript, REST APIs, Microservices, SQL, and cloud technologies.",
+    "Senior Full Stack Developer with 3+ years of experience in full-stack application development, backend engineering, and enterprise software delivery across financial services, technology, and healthcare environments. Skilled in Java, Spring Boot, React.js, Angular, TypeScript, REST APIs, Microservices, SQL, and cloud technologies.",
     "Experienced in developing application features, integrating frontend and backend services, supporting application performance, and contributing to testing and deployment workflows. Additional experience in LLM model testing, response evaluation, and training-data development.",
     "Brings a practical approach to technical problem-solving, application design, and collaborative software delivery."
   ],
   "statistics": [
     {
-      "icon": "fas fa-project-diagram",
-      "value": "7+",
-      "label": "Projects Completed",
-      "color": "#FF6B6B"
-    },
-    {
       "icon": "fas fa-briefcase",
       "value": "3+",
-      "label": "Years Experience",
-      "color": "#4ECDC4"
+      "label": "Years experience",
+      "color": "#2444e0"
+    },
+    {
+      "icon": "fas fa-project-diagram",
+      "value": "7+",
+      "label": "Projects",
+      "color": "#2444e0"
     },
     {
       "icon": "fas fa-code",
       "value": "93+",
       "label": "Technologies",
-      "color": "#FFE66D"
+      "color": "#2444e0"
     }
   ],
   "downloadCV": {
