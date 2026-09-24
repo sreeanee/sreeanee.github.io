@@ -441,11 +441,14 @@ async function loadContact() {
                     `}
                 </div>
             `).join('') + `
+                <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none" aria-hidden="true">
+                <input type="hidden" name="_subject" value="New message from your portfolio">
+                <input type="hidden" name="_captcha" value="false">
                 <button type="submit" class="form-submit">
                     <i class="${data.form.submitIcon}"></i>
                     ${data.form.submitText}
                 </button>
-                <div class="form-message"></div>
+                <div class="form-message" role="status" aria-live="polite"></div>
             `;
 
             // Handle form submission
@@ -467,7 +470,8 @@ async function loadContact() {
                         }
                     });
 
-                    if (response.ok) {
+                    const result = await response.json().catch(() => ({}));
+                    if (response.ok && String(result.success) === 'true') {
                         formMessage.textContent = data.form.successMessage;
                         formMessage.className = 'form-message success';
                         formMessage.style.display = 'block';
