@@ -1,18 +1,18 @@
 /* ============================================
    Design tokens
-   Ink on cool paper, one cobalt accent, one dark band (contact).
+   Plum ink on blush paper, one fuchsia accent taken from her portrait, one dark band (contact).
    Bricolage Grotesque for display, Figtree for text.
    ============================================ */
 :root {
-    --paper: #f3f5f8;
+    --paper: #fbf6f8;
     --surface: #ffffff;
-    --ink: #0f1830;
-    --ink-2: #47526a;
-    --ink-3: #6c768b;
-    --line: #d9dee7;
-    --accent: #2444e0;
-    --accent-strong: #1a33b8;
-    --accent-soft: #e3e9ff;
+    --ink: #2a1233;
+    --ink-2: #5b4a66;
+    --ink-3: #85748f;
+    --line: #eadde5;
+    --accent: #d81b78;
+    --accent-strong: #b0125f;
+    --accent-soft: #fde3ef;
 
     --font-display: 'Bricolage Grotesque', 'Segoe UI', sans-serif;
     --font-text: 'Figtree', -apple-system, 'Segoe UI', sans-serif;
@@ -525,7 +525,7 @@ ul { list-style: none; }
 /* Contact: the one dark band */
 .contact-section { background: var(--ink); color: #fff; border-top: 0; }
 .contact-section .section-title { color: #fff; }
-.contact-section .section-subtitle { color: #b4bdd0; }
+.contact-section .section-subtitle { color: #dcc6e4; }
 
 .contact-wrapper { display: grid; grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr); gap: 2.5rem; }
 
@@ -535,11 +535,11 @@ ul { list-style: none; }
     align-items: center;
     gap: 1rem;
     padding: 0.9rem 1rem;
-    border: 1px solid #2a3552;
+    border: 1px solid #4a2a58;
     border-radius: var(--radius);
     transition: border-color 0.15s ease, background 0.15s ease;
 }
-.contact-info-item:hover { border-color: #6f86ff; background: #16203b; }
+.contact-info-item:hover { border-color: #f06ab0; background: #381846; }
 .contact-icon {
     display: grid;
     place-items: center;
@@ -547,14 +547,14 @@ ul { list-style: none; }
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #223055 !important;
-    color: #b9c6ff !important;
+    background: #4d2a5e !important;
+    color: #f7b6d6 !important;
 }
-.contact-info-content h4 { font-size: 0.85rem; font-weight: 500; color: #98a3bd; }
+.contact-info-content h4 { font-size: 0.85rem; font-weight: 500; color: #c4a9cf; }
 .contact-info-content p { font-weight: 600; overflow-wrap: anywhere; }
 
 .contact-form { display: flex; flex-direction: column; gap: 1rem; }
-.form-group label { display: block; margin-bottom: 0.35rem; font-size: 0.9rem; font-weight: 500; color: #c6cee0; }
+.form-group label { display: block; margin-bottom: 0.35rem; font-size: 0.9rem; font-weight: 500; color: #dcc6e4; }
 .form-group label i { display: none; }
 .form-group input,
 .form-group textarea {
@@ -562,14 +562,14 @@ ul { list-style: none; }
     padding: 0.8rem 1rem;
     font: inherit;
     color: #fff;
-    background: #16203b;
-    border: 1px solid #2a3552;
+    background: #381846;
+    border: 1px solid #4a2a58;
     border-radius: var(--radius);
 }
 .form-group input::placeholder,
-.form-group textarea::placeholder { color: #7f8aa6; }
+.form-group textarea::placeholder { color: #9c7fac; }
 .form-group input:focus-visible,
-.form-group textarea:focus-visible { outline-color: #8ea2ff; outline-offset: 1px; }
+.form-group textarea:focus-visible { outline-color: #f06ab0; outline-offset: 1px; }
 
 .form-submit {
     align-self: flex-start;
@@ -593,11 +593,11 @@ ul { list-style: none; }
 .form-message.error { background: #402028; color: #ffc3cd; }
 
 .contact-social { display: flex; gap: 0.6rem; margin-top: 2rem; }
-.contact-section .social-link { color: #fff; border-color: #2a3552; }
+.contact-section .social-link { color: #fff; border-color: #4a2a58; }
 .contact-section .social-link:hover { background: #fff; color: var(--ink); border-color: #fff; }
 
 /* Footer */
-.footer { background: var(--ink); color: #98a3bd; padding: 1.5rem 0 2rem; border-top: 1px solid #1f2a47; }
+.footer { background: var(--ink); color: #c4a9cf; padding: 1.5rem 0 2rem; border-top: 1px solid #3d2049; }
 .footer-content { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.9rem; }
 .footer-tagline:empty,
 .footer-links:empty { display: none; }
