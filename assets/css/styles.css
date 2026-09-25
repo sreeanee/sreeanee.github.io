@@ -348,9 +348,8 @@ ul { list-style: none; }
 
 /* About */
 .about-text { max-width: var(--measure); }
-.about-text p { color: var(--ink-2); }
+.about-text p { color: var(--ink-2); font-size: 1.0625rem; line-height: 1.65; }
 .about-text p + p { margin-top: 1rem; }
-.about-text p:first-child { color: var(--ink); font-size: 1.25rem; line-height: 1.55; }
 
 .about-stats {
     display: grid;
